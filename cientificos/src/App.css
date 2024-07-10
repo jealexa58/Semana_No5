@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container{
+  text-align: center;
+  width: 80vw;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px
+}
